@@ -6,6 +6,7 @@ $theme-colors: (
     "secondary": #282828,
     "danger": #1a1a1a,
     "light": #c3c3c3,
+    "warning": #505050
 );
 
 
@@ -37,20 +38,64 @@ a.nav-link {
 //////////////////// MAGIC SECTION //////////////////////
 ////////////////////////////////////////////////////////
 
+.m-border {
+    border-radius: 10px;
+}
+
 .sub-text-space {
     line-height: 30px;
     color: #c4c4c4;
+    font-size: 20px;
 }
 
-.film-icon, .commercial-icon, .content-icon {
+.film-icon {
     position: absolute;
     top: -40px;
-    left: 180px;
+    left: 150px;
     border-radius: 50%;
+}
+
+.commercial-icon, .content-icon {
+    position: absolute;
+    top: -40px;
+    left: 165px;
+    border-radius: 50%;
+}
+
+.com-box-shadow {
+    box-shadow: 0px 60px 250px #000000;
 }
 
 //////////////////// PROCESSES SECTION //////////////////////
 ////////////////////////////////////////////////////////
+
+.line-bg {
+    background-image: url(resources/img/line.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cus-pad {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+
+.bend-1 {
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    transform: rotate(-5deg);
+}
+
+.bend-2 {
+    -ms-transform: rotate(5deg); /* IE 9 */
+    transform: rotate(5deg);
+}
+
+.bend-3 {
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    transform: rotate(-1deg);
+}
+
+
 .br-1 {
     border-radius: 20px;
 }
@@ -60,7 +105,7 @@ a.nav-link {
 }
 
 .text-2 {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     letter-spacing: 1px;
     font-weight: normal;
