@@ -10953,10 +10953,9 @@ a.nav-link {
 }
 
 .ser-bg {
-  background-image: url(resources/img/ser-bg.svg);
+  background-image: url(https://res.cloudinary.com/muberium516/image/upload/q_30/v1629475377/Dabest/ser-bg_fkqrm4.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 .contact-text {

@@ -1,6 +1,18 @@
 @media (max-width: 1200px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
     .head-bg-text1 {
         font-size: 60px;
+    }
+    
+    .head-pad-1 {
+        padding-left: 30px;
+    }
+
+    .head-pad-2 {
+        padding-right: 30px;
     }
 
     .film-icon {
@@ -37,12 +49,21 @@
 }
 
 @media (max-width: 1024px) {
+
+    .head-pad-1 {
+        padding-left: 28px;
+    }
+
     .film-icon {
         left: 90px;
     }
     
     .commercial-icon, .content-icon {
         left: 110px;
+    }
+
+    .process-img {
+        height: 370px;
     }
 
     .sub-text-space-2 {
@@ -66,7 +87,7 @@
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
-
+    
     .head-bg-text1 {
         font-size: 50px;
     }
@@ -192,6 +213,10 @@
         line-height: 60px;
     }
 
+    .ser-text{
+        font-size: 14px;
+    }
+
     .contact-text {
         font-size: 16px;
         line-height: 25px;
@@ -213,7 +238,7 @@
     }
 
     .head-bg-text1 {
-        font-size: 30px;
+        font-size: 38px;
         line-height: 40px;
     }
 
@@ -261,7 +286,7 @@
     }
 
     .ser-text {
-        font-size: 13px;
+        font-size: 12px;
         
     }
 
