@@ -6,14 +6,14 @@ $theme-colors: (
     "secondary": #282828,
     "danger": #1a1a1a,
     "light": #c3c3c3,
-    "warning": #505050
+    "warning": #5b5b5b
 );
 
 
 $container-max-widths: (
   sm: 540px,
   md: 800px,
-  lg: 960px,
+  lg: 1200px,
   xl: 1400px
 ); 
 
@@ -38,6 +38,10 @@ a.nav-link {
 //////////////////// MAGIC SECTION //////////////////////
 ////////////////////////////////////////////////////////
 
+.font-weight-bolder {
+    font-weight: 800 !important;
+}
+
 .m-border {
     border-radius: 10px;
 }
@@ -58,7 +62,7 @@ a.nav-link {
 .commercial-icon, .content-icon {
     position: absolute;
     top: -40px;
-    left: 165px;
+    left: 170px;
     border-radius: 50%;
 }
 
@@ -73,6 +77,10 @@ a.nav-link {
     background-image: url(resources/img/line.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.process-img {
+    height: 450px;
 }
 
 .cus-pad {
@@ -141,12 +149,16 @@ a.nav-link {
     height: 100vh;
 }
 
- 
-.contact {
-    position: relative;
-}
-
-.contact-text {
+.contact-text { 
     padding-top: 200px;
     padding-bottom: 250px;
+}
+
+
+///////////// PAGE 2 - STORY ///////////////
+////////////////////////////////////////////
+.story-text {
+    font-size:34px;
+    line-height: 70px; 
+    color: #c3c3c3;
 }
